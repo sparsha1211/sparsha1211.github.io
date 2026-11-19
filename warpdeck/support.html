@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WarpDeck Support — Bearcat Inc</title>
+<meta name="description" content="Support for WarpDeck by Bearcat Inc: getting started, troubleshooting the boot countdown, and how to contact Bearcat Inc for help.">
+<style>
+ :root{--bg:#0f1115;--card:#171a21;--text:#e8eaed;--muted:#9aa0a6;--accent:#7ab8ff;--line:#2a2f3a}
+ *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+ nav{max-width:820px;margin:0 auto;padding:18px 20px;display:flex;gap:22px;flex-wrap:wrap}
+ nav a{color:var(--muted);text-decoration:none}nav a:hover{color:#fff}
+ main{max-width:820px;margin:0 auto;padding:20px 20px 64px}
+ .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:36px 32px}
+ h1{font-size:2rem;margin:0 0 8px}h2{font-size:1.2rem;margin:32px 0 8px;color:#fff}
+ .muted{color:var(--muted)}a{color:var(--accent)}ul,ol{padding-left:22px}
+ footer{margin-top:28px;font-size:.9rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<nav><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<main>
+ <div class="card">
+  <h1>WarpDeck Support</h1>
+  <p class="muted">Support for WarpDeck, developed and published by <strong>Bearcat Inc</strong>.</p>
+
+  <h2>Contact Bearcat Inc</h2>
+  <p>For help, bug reports, or feature requests, please contact <strong>Bearcat Inc</strong>:</p>
+  <ul>
+    <li><strong>Support issues:</strong> <a href="https://github.com/sparsha1211/warpdeck-site/issues">Open a support request for WarpDeck</a> — please include your headset model, WarpDeck version (Settings), and a description of what happened.</li>
+    <li><strong>Store support:</strong> you can also reach Bearcat Inc via the support contact listed on the WarpDeck store listing (Product Detail Page).</li>
+  </ul>
+
+  <h2>Getting started</h2>
+  <ol>
+    <li>Open WarpDeck once after installing — Android does not deliver boot events to a never-opened app.</li>
+    <li>In Settings, choose your <em>Boot countdown app</em> and pick your Quick Launch Top 5 apps.</li>
+    <li>Set the boot delay and countdown timer, make sure <em>Launch on boot</em> is on, then reboot and put the headset on.</li>
+  </ol>
+
+  <h2>Troubleshooting</h2>
+  <h2 style="font-size:1.05rem">The countdown did not appear after reboot</h2>
+  <ul>
+    <li>Open WarpDeck at least once after install or an update, and do not force-stop it (force-stopped apps do not receive boot events).</li>
+    <li>Check Settings → Launch on boot is enabled and a boot app is selected, then try Settings → Simulate boot / Test countdown.</li>
+    <li>Put the headset on: the countdown waits for headset focus and shows “Waiting for headset to be ready…” until you can see it.</li>
+  </ul>
+  <h2 style="font-size:1.05rem">Boot timing feels early or late</h2>
+  <ul>
+    <li>Adjust Settings → Boot delay (0–60s) and Countdown timer (0–30s). Total boot-to-launch is delay + countdown once the panel is focused.</li>
+    <li>For exact delay timing, grant “Alarms &amp; reminders” when WarpDeck prompts; without it, timing is approximate.</li>
+  </ul>
+  <h2 style="font-size:1.05rem">Reset WarpDeck or delete your data</h2>
+  <ul>
+    <li>Uninstall WarpDeck, or go to system Settings → Apps → WarpDeck → Storage → Clear storage. All preferences are stored only on your device — see the <a href="privacy.html">Privacy Policy</a>.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>WarpDeck collects no data, has no network access, and stores preferences only on your headset. Read the <a href="privacy.html">WarpDeck Privacy Policy by Bearcat Inc</a>.</p>
+ </div>
+ <footer>&copy; 2026 Bearcat Inc. WarpDeck is developed and published by Bearcat Inc. &middot; <a href="./">Home</a></footer>
+</main>
+</body>
+</html>
